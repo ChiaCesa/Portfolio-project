@@ -40,11 +40,14 @@
   padding: 160px 20px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content {
   margin: 30px;
   text-align: center;
+}
+.active {
+  color: var(--branding-color) !important;
 }
 h1,
 h2,
@@ -94,6 +97,12 @@ p {
 }
 .project-description {
   padding: 20px 60px;
+}
+.nav-item {
+  padding: 0 15px;
+}
+.logo {
+  max-height: 60px;
 }
 @media (max-width: 900px) {
   h1 {
