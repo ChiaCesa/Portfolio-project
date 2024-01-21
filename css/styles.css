@@ -49,6 +49,9 @@
 .active {
   color: var(--branding-color) !important;
 }
+.photo {
+  border-radius: 10px;
+}
 h1,
 h2,
 h3,
@@ -88,8 +91,8 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
-.img-fluid {
-  border-radius: 4px;
+.homepage-photo {
+  border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .homepage-photo {
